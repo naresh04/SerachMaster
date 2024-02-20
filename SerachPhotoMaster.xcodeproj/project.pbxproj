@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		648B000A2B84DB5700F6464C /* SPHomveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B00092B84DB5700F6464C /* SPHomveView.swift */; };
+		648B000D2B84DBD100F6464C /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B000C2B84DBD100F6464C /* FlickrResponse.swift */; };
+		648B00102B84DC1800F6464C /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B000F2B84DC1800F6464C /* FlickrService.swift */; };
+		648B00132B84DC4E00F6464C /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B00122B84DC4E00F6464C /* RemoteImage.swift */; };
+		648B00152B84DC7B00F6464C /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B00142B84DC7B00F6464C /* PhotoDetailView.swift */; };
+		648B00172B84DCA200F6464C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B00162B84DCA200F6464C /* ActivityIndicator.swift */; };
+		648B00192B84DCC300F6464C /* HTMLTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B00182B84DCC300F6464C /* HTMLTextView.swift */; };
+		648B001B2B84DCF500F6464C /* MockFlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B001A2B84DCF500F6464C /* MockFlickrService.swift */; };
+		648B001E2B84DD4B00F6464C /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 648B001D2B84DD4B00F6464C /* URLImage */; };
+		648BFFDF2B84DAFD00F6464C /* SerachPhotoMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BFFDE2B84DAFD00F6464C /* SerachPhotoMasterApp.swift */; };
+		648BFFE32B84DAFF00F6464C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BFFE22B84DAFF00F6464C /* Assets.xcassets */; };
+		648BFFE62B84DAFF00F6464C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BFFE52B84DAFF00F6464C /* Preview Assets.xcassets */; };
+		648BFFF02B84DAFF00F6464C /* SerachPhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BFFEF2B84DAFF00F6464C /* SerachPhotoMasterTests.swift */; };
+		648BFFFA2B84DAFF00F6464C /* SerachPhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BFFF92B84DAFF00F6464C /* SerachPhotoMasterUITests.swift */; };
+		648BFFFC2B84DAFF00F6464C /* SerachPhotoMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BFFFB2B84DAFF00F6464C /* SerachPhotoMasterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648BFFEC2B84DAFF00F6464C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648BFFD32B84DAFD00F6464C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648BFFDA2B84DAFD00F6464C;
+			remoteInfo = SerachPhotoMaster;
+		};
+		648BFFF62B84DAFF00F6464C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648BFFD32B84DAFD00F6464C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648BFFDA2B84DAFD00F6464C;
+			remoteInfo = SerachPhotoMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		648B00092B84DB5700F6464C /* SPHomveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHomveView.swift; sourceTree = "<group>"; };
+		648B000C2B84DBD100F6464C /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
+		648B000F2B84DC1800F6464C /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+		648B00122B84DC4E00F6464C /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		648B00142B84DC7B00F6464C /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		648B00162B84DCA200F6464C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		648B00182B84DCC300F6464C /* HTMLTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLTextView.swift; sourceTree = "<group>"; };
+		648B001A2B84DCF500F6464C /* MockFlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFlickrService.swift; sourceTree = "<group>"; };
+		648BFFDB2B84DAFD00F6464C /* SerachPhotoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerachPhotoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BFFDE2B84DAFD00F6464C /* SerachPhotoMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachPhotoMasterApp.swift; sourceTree = "<group>"; };
+		648BFFE22B84DAFF00F6464C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648BFFE52B84DAFF00F6464C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		648BFFEB2B84DAFF00F6464C /* SerachPhotoMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerachPhotoMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BFFEF2B84DAFF00F6464C /* SerachPhotoMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachPhotoMasterTests.swift; sourceTree = "<group>"; };
+		648BFFF52B84DAFF00F6464C /* SerachPhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerachPhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BFFF92B84DAFF00F6464C /* SerachPhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachPhotoMasterUITests.swift; sourceTree = "<group>"; };
+		648BFFFB2B84DAFF00F6464C /* SerachPhotoMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachPhotoMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648BFFD82B84DAFD00F6464C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648B001E2B84DD4B00F6464C /* URLImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648BFFE82B84DAFF00F6464C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648BFFF22B84DAFF00F6464C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		648B00082B84DB2E00F6464C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				648B00092B84DB5700F6464C /* SPHomveView.swift */,
+				648B00142B84DC7B00F6464C /* PhotoDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		648B000B2B84DBB300F6464C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				648B000C2B84DBD100F6464C /* FlickrResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		648B000E2B84DBED00F6464C /* APIservices */ = {
+			isa = PBXGroup;
+			children = (
+				648B000F2B84DC1800F6464C /* FlickrService.swift */,
+			);
+			path = APIservices;
+			sourceTree = "<group>";
+		};
+		648B00112B84DC3A00F6464C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				648B00122B84DC4E00F6464C /* RemoteImage.swift */,
+				648B00162B84DCA200F6464C /* ActivityIndicator.swift */,
+				648B00182B84DCC300F6464C /* HTMLTextView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		648BFFD22B84DAFD00F6464C = {
+			isa = PBXGroup;
+			children = (
+				648BFFDD2B84DAFD00F6464C /* SerachPhotoMaster */,
+				648BFFEE2B84DAFF00F6464C /* SerachPhotoMasterTests */,
+				648BFFF82B84DAFF00F6464C /* SerachPhotoMasterUITests */,
+				648BFFDC2B84DAFD00F6464C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		648BFFDC2B84DAFD00F6464C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648BFFDB2B84DAFD00F6464C /* SerachPhotoMaster.app */,
+				648BFFEB2B84DAFF00F6464C /* SerachPhotoMasterTests.xctest */,
+				648BFFF52B84DAFF00F6464C /* SerachPhotoMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648BFFDD2B84DAFD00F6464C /* SerachPhotoMaster */ = {
+			isa = PBXGroup;
+			children = (
+				648B00112B84DC3A00F6464C /* Utils */,
+				648B000E2B84DBED00F6464C /* APIservices */,
+				648B000B2B84DBB300F6464C /* Model */,
+				648B00082B84DB2E00F6464C /* View */,
+				648BFFDE2B84DAFD00F6464C /* SerachPhotoMasterApp.swift */,
+				648BFFE22B84DAFF00F6464C /* Assets.xcassets */,
+				648BFFE42B84DAFF00F6464C /* Preview Content */,
+			);
+			path = SerachPhotoMaster;
+			sourceTree = "<group>";
+		};
+		648BFFE42B84DAFF00F6464C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				648BFFE52B84DAFF00F6464C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		648BFFEE2B84DAFF00F6464C /* SerachPhotoMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				648BFFEF2B84DAFF00F6464C /* SerachPhotoMasterTests.swift */,
+				648B001A2B84DCF500F6464C /* MockFlickrService.swift */,
+			);
+			path = SerachPhotoMasterTests;
+			sourceTree = "<group>";
+		};
+		648BFFF82B84DAFF00F6464C /* SerachPhotoMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				648BFFF92B84DAFF00F6464C /* SerachPhotoMasterUITests.swift */,
+				648BFFFB2B84DAFF00F6464C /* SerachPhotoMasterUITestsLaunchTests.swift */,
+			);
+			path = SerachPhotoMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648BFFDA2B84DAFD00F6464C /* SerachPhotoMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648BFFFF2B84DAFF00F6464C /* Build configuration list for PBXNativeTarget "SerachPhotoMaster" */;
+			buildPhases = (
+				648BFFD72B84DAFD00F6464C /* Sources */,
+				648BFFD82B84DAFD00F6464C /* Frameworks */,
+				648BFFD92B84DAFD00F6464C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerachPhotoMaster;
+			packageProductDependencies = (
+				648B001D2B84DD4B00F6464C /* URLImage */,
+			);
+			productName = SerachPhotoMaster;
+			productReference = 648BFFDB2B84DAFD00F6464C /* SerachPhotoMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		648BFFEA2B84DAFF00F6464C /* SerachPhotoMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648B00022B84DAFF00F6464C /* Build configuration list for PBXNativeTarget "SerachPhotoMasterTests" */;
+			buildPhases = (
+				648BFFE72B84DAFF00F6464C /* Sources */,
+				648BFFE82B84DAFF00F6464C /* Frameworks */,
+				648BFFE92B84DAFF00F6464C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648BFFED2B84DAFF00F6464C /* PBXTargetDependency */,
+			);
+			name = SerachPhotoMasterTests;
+			productName = SerachPhotoMasterTests;
+			productReference = 648BFFEB2B84DAFF00F6464C /* SerachPhotoMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		648BFFF42B84DAFF00F6464C /* SerachPhotoMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648B00052B84DAFF00F6464C /* Build configuration list for PBXNativeTarget "SerachPhotoMasterUITests" */;
+			buildPhases = (
+				648BFFF12B84DAFF00F6464C /* Sources */,
+				648BFFF22B84DAFF00F6464C /* Frameworks */,
+				648BFFF32B84DAFF00F6464C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648BFFF72B84DAFF00F6464C /* PBXTargetDependency */,
+			);
+			name = SerachPhotoMasterUITests;
+			productName = SerachPhotoMasterUITests;
+			productReference = 648BFFF52B84DAFF00F6464C /* SerachPhotoMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648BFFD32B84DAFD00F6464C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					648BFFDA2B84DAFD00F6464C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					648BFFEA2B84DAFF00F6464C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 648BFFDA2B84DAFD00F6464C;
+					};
+					648BFFF42B84DAFF00F6464C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 648BFFDA2B84DAFD00F6464C;
+					};
+				};
+			};
+			buildConfigurationList = 648BFFD62B84DAFD00F6464C /* Build configuration list for PBXProject "SerachPhotoMaster" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648BFFD22B84DAFD00F6464C;
+			packageReferences = (
+				648B001C2B84DD4B00F6464C /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 648BFFDC2B84DAFD00F6464C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648BFFDA2B84DAFD00F6464C /* SerachPhotoMaster */,
+				648BFFEA2B84DAFF00F6464C /* SerachPhotoMasterTests */,
+				648BFFF42B84DAFF00F6464C /* SerachPhotoMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648BFFD92B84DAFD00F6464C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648BFFE62B84DAFF00F6464C /* Preview Assets.xcassets in Resources */,
+				648BFFE32B84DAFF00F6464C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648BFFE92B84DAFF00F6464C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648BFFF32B84DAFF00F6464C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648BFFD72B84DAFD00F6464C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648BFFDF2B84DAFD00F6464C /* SerachPhotoMasterApp.swift in Sources */,
+				648B000A2B84DB5700F6464C /* SPHomveView.swift in Sources */,
+				648B00192B84DCC300F6464C /* HTMLTextView.swift in Sources */,
+				648B00152B84DC7B00F6464C /* PhotoDetailView.swift in Sources */,
+				648B00102B84DC1800F6464C /* FlickrService.swift in Sources */,
+				648B00172B84DCA200F6464C /* ActivityIndicator.swift in Sources */,
+				648B00132B84DC4E00F6464C /* RemoteImage.swift in Sources */,
+				648B000D2B84DBD100F6464C /* FlickrResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648BFFE72B84DAFF00F6464C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648B001B2B84DCF500F6464C /* MockFlickrService.swift in Sources */,
+				648BFFF02B84DAFF00F6464C /* SerachPhotoMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648BFFF12B84DAFF00F6464C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648BFFFA2B84DAFF00F6464C /* SerachPhotoMasterUITests.swift in Sources */,
+				648BFFFC2B84DAFF00F6464C /* SerachPhotoMasterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648BFFED2B84DAFF00F6464C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648BFFDA2B84DAFD00F6464C /* SerachPhotoMaster */;
+			targetProxy = 648BFFEC2B84DAFF00F6464C /* PBXContainerItemProxy */;
+		};
+		648BFFF72B84DAFF00F6464C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648BFFDA2B84DAFD00F6464C /* SerachPhotoMaster */;
+			targetProxy = 648BFFF62B84DAFF00F6464C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		648B00002B84DAFF00F6464C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerachPhotoMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = S7675679PN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.priorityexpress.SerachPhotoMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648B00012B84DAFF00F6464C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerachPhotoMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = S7675679PN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.priorityexpress.SerachPhotoMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		648B00032B84DAFF00F6464C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7675679PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.priorityexpress.SerachPhotoMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerachPhotoMaster.app/SerachPhotoMaster";
+			};
+			name = Debug;
+		};
+		648B00042B84DAFF00F6464C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7675679PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.priorityexpress.SerachPhotoMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerachPhotoMaster.app/SerachPhotoMaster";
+			};
+			name = Release;
+		};
+		648B00062B84DAFF00F6464C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7675679PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.priorityexpress.SerachPhotoMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerachPhotoMaster;
+			};
+			name = Debug;
+		};
+		648B00072B84DAFF00F6464C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7675679PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.priorityexpress.SerachPhotoMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerachPhotoMaster;
+			};
+			name = Release;
+		};
+		648BFFFD2B84DAFF00F6464C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		648BFFFE2B84DAFF00F6464C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648B00022B84DAFF00F6464C /* Build configuration list for PBXNativeTarget "SerachPhotoMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648B00032B84DAFF00F6464C /* Debug */,
+				648B00042B84DAFF00F6464C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648B00052B84DAFF00F6464C /* Build configuration list for PBXNativeTarget "SerachPhotoMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648B00062B84DAFF00F6464C /* Debug */,
+				648B00072B84DAFF00F6464C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648BFFD62B84DAFD00F6464C /* Build configuration list for PBXProject "SerachPhotoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648BFFFD2B84DAFF00F6464C /* Debug */,
+				648BFFFE2B84DAFF00F6464C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648BFFFF2B84DAFF00F6464C /* Build configuration list for PBXNativeTarget "SerachPhotoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648B00002B84DAFF00F6464C /* Debug */,
+				648B00012B84DAFF00F6464C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		648B001C2B84DD4B00F6464C /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		648B001D2B84DD4B00F6464C /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 648B001C2B84DD4B00F6464C /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 648BFFD32B84DAFD00F6464C /* Project object */;
+}
